@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Week H.W</title>
+    <!-- Code One ==>  Don't work, because it above the h1 element, the system is reading the code line by line  -->
+    <!-- <script>
+			document.getElementById("el").style.color = "red";
+    </script> -->
+
+    <!-- Code Two ==> Work without any problem because it work on onload window -->
+    <!-- <script>
+			window.onload = function () {
+				document.getElementById("el").style.color = "red";
+      };
+    </script> -->
+  </head>
+  <body>
+    <!-- Question 1 -->
+    <!-- <h1 id="el">Page Title</h1> -->
+    <hr />
+    <!-- Code Three ==> Work normally [the best place for it] -->
+    <!-- <script>
+			document.getElementById("el").style.color = "red";
+    </script> -->
+    <script src="main.js"></script>
+  </body>
+</html>
